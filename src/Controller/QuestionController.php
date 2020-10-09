@@ -34,10 +34,11 @@ class QuestionController extends AbstractController
             'Three'
         ];
 
-        dump($this);
+        $questionText = 'I\'ve been turned into a cat, any thoughts on how to turn back? While I\'m adorable, I don\'t really care for cat food.';
 
         return $this->render('question/show.html.twig', [
             'question' => ucwords(str_replace('-', ' ', $slug)),
+            'questionText' => $questionText,
             'answers' => $answers
         ]);
     }
