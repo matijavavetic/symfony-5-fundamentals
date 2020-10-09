@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc426-686b-46a4-9902-e13a611e8b1b" name="Default Changelist" comment="" />
+    <list default="true" id="d1fbc426-686b-46a4-9902-e13a611e8b1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/knp_markdown.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602246766374</updated>
-      <workItem from="1602246767411" duration="1468000" />
+      <workItem from="1602246767411" duration="1915000" />
     </task>
     <servers />
   </component>
