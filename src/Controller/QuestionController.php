@@ -3,11 +3,9 @@
 namespace App\Controller;
 
 use App\Service\MarkdownHelper;
-use Knp\Bundle\MarkdownBundle\MarkdownParserInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Contracts\Cache\CacheInterface;
 use Twig\Environment;
 
 class QuestionController extends AbstractController
@@ -29,7 +27,7 @@ class QuestionController extends AbstractController
     /**
      * @Route("/questions/{slug}", name="app_question_show")
      */
-    public function show($slug, CacheInterface $cache, MarkdownHelper $markdownHelper) : Response
+    public function show($slug, MarkdownHelper $markdownHelper) : Response
     {
         $answers = [
             'One',

@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fbc426-686b-46a4-9902-e13a611e8b1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602246766374</updated>
       <workItem from="1602246767411" duration="2841000" />
-      <workItem from="1602323995963" duration="1374000" />
+      <workItem from="1602323995963" duration="1808000" />
     </task>
     <servers />
   </component>
@@ -133,5 +134,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1589" y="437" width="631" height="600" key="NewPhpClassDialog" timestamp="1602325470074">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1589" y="437" width="631" height="600" key="NewPhpClassDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1602325470074" />
   </component>
 </project>
